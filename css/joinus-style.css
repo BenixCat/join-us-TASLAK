@@ -9,7 +9,7 @@
          rgba(0, 0, 0, 0.4),
          rgba(0, 0, 0, 0.7)
        ),
-       url('../assets/img/-a-large-group-of-diverse-people-standing-together.png');
+       url('../assets/img/landing-image.png');
      display: flex;
      justify-content: center;;
      flex-direction: column;

@@ -5,14 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   
+  font-family: "Poppins", sans-serif;
 }
 
 .container-form {
-  font-family: "Poppins", sans-serif;
   position: relative;
   background: #fff;
   padding: 25px;
   border-radius: 8px;
+  margin-top: 6rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .container-form header {
