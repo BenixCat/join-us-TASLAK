@@ -1,4 +1,5 @@
-.contact-img { /* Image at the entrance of the site */
+/* Image at the entrance of the site */
+.contact-img { 
      width: 100%;
      height: 100vh;
      background-size: cover;

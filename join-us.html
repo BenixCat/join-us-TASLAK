@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,68 +22,86 @@
     <!-- Fontawesome CDN Link -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Favicon -->
+   <link rel="icon" type="image/x-icon" href="assets\img\fav-icon.ico" />
   </head>
   <body>
     <!-- Navigation Start -->
     <nav
-    class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
-  >
-    <div class="container navigation-container">
-      <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#">Konus!</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse py-2" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a
-              class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc"
-              href="#about"
-              >Hakkımızda</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
-              href="#campaigns"
-              >Kampanyalar</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link btn btn-outline-info navigation-link-spc active link-light me-1"
-              href="#take-action"
-              >Aksiyon al</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
-              href="#news"
-              >Makaleler</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
-              href="#research"
-              >İletişim</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn" href="#donate"
-              >Bağış &hearts;</a
-            >
-          </li>
-        </ul>
+      class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
+    >
+      <div class="container navigation-container">
+        <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#">Konus!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse py-2" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc"
+                href="#"
+                >Hakkımızda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
+                href="#"
+                >Kampanyalar</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Keşfet
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item btn btn-outline-info " href="#">Makaleler</a></li>
+                <li><a class="dropdown-item btn btn-outline-info " href="#">Başarı Hikayeleri</a></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="#">Hikayeler ve Röportajlar</a></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="#">Haberler ve Güncellemeler</a></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="#">Hakkını Keşfet</a></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="#">Kaynakça</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="#">Dünya Basın Özgürlüğü Haritası</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item btn btn-outline-info disabled" href="#">Blog (Çok Yakında...)</a></li>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  İletişim
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item btn btn-outline-info " href="#">Hakkımızda</a></li>
+                  <li><a class="dropdown-item btn btn-outline-info" href="#">İletişim</a></li>
+                  <li><a class="dropdown-item btn btn-outline-info" href="#">Bulunduğumuz Ülkeler</a></li>
+                </ul>
+                </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link btn btn-outline-info navigation-link-spc active link-light me-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Aksiyon al
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item btn btn-outline-info active" href="join-us.html">Bize Katıl</a></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="bevolunteer.html">Gönüllü Ol</a></li>
+                <li><a class="dropdown-item btn btn-outline-info" href="#">Haberdar Ol</a></li>
+              </ul>
+              </li>
+            <li class="nav-item">
+              <a class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn" href="#donate"
+                >Bağış &hearts;</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
     <!-- Navigation End -->
 
 <!-- Main image Start -->
