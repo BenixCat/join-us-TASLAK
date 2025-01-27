@@ -1,0 +1,87 @@
+/* Genel Bölüm Ayarları */
+.join-us-section {
+     background-color: #f9f9f9;
+     padding: 50px 20px;
+     text-align: center;
+   }
+   
+   .join h2 {
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 15px;
+   }
+   
+   .join p {
+     font-size: 1.2rem;
+     color: #666;
+     margin-bottom: 30px;
+   }
+   
+   /* Katılım Kartları */
+   .join-options {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+   }
+   
+   .option-card {
+     background-color: #ffffff;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+     padding: 20px;
+     width: 300px;
+     transition: transform 0.3s ease;
+   }
+   
+   .option-card:hover {
+     transform: translateY(-10px);
+   }
+   
+   .option-card h3 {
+     font-size: 1.5rem;
+     color: #333;
+     margin-bottom: 10px;
+   }
+   
+   .option-card p {
+     font-size: 1rem;
+     color: #555;
+     margin-bottom: 20px;
+   }
+   
+   .option-card .btn {
+     text-decoration: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     font-size: 1rem;
+     transition: background-color 0.3s ease;
+   }
+   
+   .btn-primary {
+     background-color: #007bff;
+     color: #fff;
+   }
+   
+   .btn-primary:hover {
+     background-color: #0056b3;
+   }
+   
+   .btn-warning {
+     background-color: #ffc107;
+     color: #fff;
+   }
+   
+   .btn-warning:hover {
+     background-color: #e0a800;
+     color: #fff;
+   }
+   
+   .btn-success {
+     background-color: #28a745;
+     color: #fff;
+   }
+   
+   .btn-success:hover {
+     background-color: #1e7e34;
+   }
